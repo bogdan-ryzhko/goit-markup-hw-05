@@ -355,7 +355,7 @@ img {
 	padding: 12px;
 	border-radius: 100%;
 	color: var(--icon-color);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-icon {
@@ -422,7 +422,9 @@ img {
 	background-color: var(--potfolio-btn-bg);
 	border-radius: 4px;
 	border: inherit;
-	transition: all 0.3s ease;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-btn:hover,
@@ -457,7 +459,7 @@ img {
 .production-link {
 	display: inline-block;
 	border: 1px solid #EEEEEE;
-	transition: all 0.3s ease;
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .production-link:hover,
@@ -558,7 +560,7 @@ img {
 	align-items: center;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.1);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-icon {
